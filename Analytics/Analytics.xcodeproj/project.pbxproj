@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95779E5D176EE517003E7298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95779E5C176EE517003E7298 /* Foundation.framework */; };
+		95779E62176EE517003E7298 /* Analytics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 95779E61176EE517003E7298 /* Analytics.h */; };
+		95779E64176EE517003E7298 /* Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 95779E63176EE517003E7298 /* Analytics.m */; };
+		95779E6D176EE53D003E7298 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95779E6B176EE53D003E7298 /* libMobClickLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95779E57176EE517003E7298 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				95779E62176EE517003E7298 /* Analytics.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95779E59176EE517003E7298 /* libAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95779E5C176EE517003E7298 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95779E60176EE517003E7298 /* Analytics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Analytics-Prefix.pch"; sourceTree = "<group>"; };
+		95779E61176EE517003E7298 /* Analytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
+		95779E63176EE517003E7298 /* Analytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Analytics.m; sourceTree = "<group>"; };
+		95779E6B176EE53D003E7298 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		95779E6C176EE53D003E7298 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95779E56176EE517003E7298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95779E5D176EE517003E7298 /* Foundation.framework in Frameworks */,
+				95779E6D176EE53D003E7298 /* libMobClickLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95779E50176EE517003E7298 = {
+			isa = PBXGroup;
+			children = (
+				95779E5E176EE517003E7298 /* Analytics */,
+				95779E5B176EE517003E7298 /* Frameworks */,
+				95779E5A176EE517003E7298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95779E5A176EE517003E7298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95779E59176EE517003E7298 /* libAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95779E5B176EE517003E7298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95779E5C176EE517003E7298 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95779E5E176EE517003E7298 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				95779E6A176EE53D003E7298 /* umeng */,
+				95779E61176EE517003E7298 /* Analytics.h */,
+				95779E63176EE517003E7298 /* Analytics.m */,
+				95779E5F176EE517003E7298 /* Supporting Files */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		95779E5F176EE517003E7298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95779E60176EE517003E7298 /* Analytics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95779E6A176EE53D003E7298 /* umeng */ = {
+			isa = PBXGroup;
+			children = (
+				95779E6B176EE53D003E7298 /* libMobClickLibrary.a */,
+				95779E6C176EE53D003E7298 /* MobClick.h */,
+			);
+			path = umeng;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95779E58176EE517003E7298 /* Analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95779E67176EE517003E7298 /* Build configuration list for PBXNativeTarget "Analytics" */;
+			buildPhases = (
+				95779E55176EE517003E7298 /* Sources */,
+				95779E56176EE517003E7298 /* Frameworks */,
+				95779E57176EE517003E7298 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Analytics;
+			productName = Analytics;
+			productReference = 95779E59176EE517003E7298 /* libAnalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95779E51176EE517003E7298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "SpriteApp Inc";
+			};
+			buildConfigurationList = 95779E54176EE517003E7298 /* Build configuration list for PBXProject "Analytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95779E50176EE517003E7298;
+			productRefGroup = 95779E5A176EE517003E7298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95779E58176EE517003E7298 /* Analytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95779E55176EE517003E7298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95779E64176EE517003E7298 /* Analytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95779E65176EE517003E7298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95779E66176EE517003E7298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95779E68176EE517003E7298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Analytics.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Analytics/Analytics-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Analytics/umeng\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95779E69176EE517003E7298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Analytics.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Analytics/Analytics-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Analytics/umeng\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95779E54176EE517003E7298 /* Build configuration list for PBXProject "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95779E65176EE517003E7298 /* Debug */,
+				95779E66176EE517003E7298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95779E67176EE517003E7298 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95779E68176EE517003E7298 /* Debug */,
+				95779E69176EE517003E7298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95779E51176EE517003E7298 /* Project object */;
+}

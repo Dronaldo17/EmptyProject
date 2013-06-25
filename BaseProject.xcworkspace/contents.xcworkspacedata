@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SpriteOnline/SpriteOnline.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lua/Lua.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DataBase/DataBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Analytics/Analytics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SBJson/SBJson.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ASIHttp/ASIHttp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Tapku/Tapku.xcodeproj">
+   </FileRef>
+</Workspace>
